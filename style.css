@@ -85,8 +85,8 @@ body {
 .cards {
     display: flex;
     gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 20px;
 }
 
 .card {
@@ -105,8 +105,9 @@ body {
 
 .card img {
     width: 100%;
-    border-radius: 5px;
     height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .price {
