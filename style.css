@@ -78,21 +78,23 @@ body {
 
 /* CARDS */
 .section-title {
-    margin: 40px 0 20px 0;
-    text-align: center;
+    margin: 40px 0 10px 20px;
+    text-align: left;
 }
+
 
 .cards {
     display: flex;
     gap: 20px;
     overflow-x: auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .card {
     background-color: #ffffff;
     padding: 20px;
     width: 300px;
+    flex: 0 0 300px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -172,4 +174,20 @@ body {
     .menu-toggle {
         display: block;
     }
+
+    .btn-colecao{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background-color:#ff3c3c;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-colecao:hover{
+    background-color:#cc2f2f;
+}
 }
