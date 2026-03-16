@@ -1,194 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carflix</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- TESTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
-    <header class="header">
-        <div class="container nav-container">
-            <h1 class="logo">Carflix</h1>
 
-            <nav> 
-                <ul class="nav-links">
-                    <li><a href="#">Veiculos novos</a></li>
-                    <li><a href="#contato">Entre em contato</a></li>
-                </ul>
-            </nav>
+<header class="header">
+    <div class="container nav-container">
+        <h1 class="logo">Carflix</h1>
 
-            <button class="menu-toggle" id="menu-toggle">=</button>
-        </div>
-    </header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Veiculos novos</a></li>
+                <li><a href="#contato">Entre em contato</a></li>
+            </ul>
+        </nav>
 
-    <section class="banner">
-        <div class="container banner-content">
-            <h2>Seu usado vale mais aqui na Carflix</h2>
-            <button id="cotacaoBtn" class="btn-primary">Faça uma cotação</button>
+        <button class="menu-toggle" id="menu-toggle">=</button>
+    </div>
+</header>
 
-           <a href="colecao.html" class="btn-primary">Carros de Fórmula 1</a>
-           
-        </div>
-    </section>
+<section class="banner">
+    <div class="container banner-content">
+        <h2>Seu usado vale mais aqui na Carflix</h2>
+        <button id="cotacaoBtn" class="btn-primary">Faça uma cotação</button>
 
-    <main class="container">
+        <a href="colecao.html" class="btn-primary">Carros de Fórmula 1</a>
+    </div>
+</section>
 
-        <h2 class="section-title">Veiculos destacados</h2>
+<main class="container">
 
-        <div class="cards">
+    <h2 class="section-title">Veiculos destacados</h2>
 
-            <div class="card">
-                <img src="images/civic-2024.jpg" alt="Honda Civic 2024">
-                <h3>Honda Civic 2024</h3>
-                <p>Cor: Vermelho</p>
-                <p class="price">R$ 140.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
+    <div class="cards">
 
-            <div class="card">
-                <img src="images/corolla-2020.jpg" alt="Toyota Corolla 2020">
-                <h3>Toyota Corolla 2020</h3>
-                <p>Cor: Azul</p>
-                <p class="price">R$ 107.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/hb20-2022.jpg" alt="Hyundai HB20 2022">
-                <h3>Hyundai HB20</h3>
-                <p>Cor: Branco</p>
-                <p class="price">R$ 120.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/cruze.jpg" alt="Chevrolet Cruze 2023">
-                <h3>Chevrolet Cruze LTZ</h3>
-                <p>Cor: Preto</p>
-                <p class="price">R$ 110.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/jetta.jpg" alt="Volkswagen Jetta GLI">
-                <h3>Volkswagen Jetta GLI</h3>
-                <p>Cor: Vermelho</p>
-                <p class="price">R$ 270.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-
+        <div class="card">
+            <img src="images/civic-2024.jpg" alt="Honda Civic 2024">
+            <h3>Honda Civic 2024</h3>
+            <p>Cor: Vermelho</p>
+            <p class="price">R$ 140.000</p>
+            <a href="compra.html?carro=Honda Civic 2024" class="btn-buy">Comprar</a>
         </div>
 
-
-        <!-- NOVA SEÇÃO -->
-        <h2 class="section-title">Supercarros</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <img src="images/mclaren-senna.jpg" alt="McLaren Senna">
-                <h3>McLaren Senna</h3>
-                <p>Cor: Laranja</p>
-                <p class="price">R$ 15.000.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-        
-            <div class="card">
-                <img src="images/porshe.jpg" alt="Porshe 911 Turbo S">
-                <h3>Porshe 911 Turbo S</h3>
-                <p>Cor: Preto</p>
-                <p class="price">R$ 2.150.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/purosangue.jpg" alt="Ferrari Purosangue 2025">
-                <h3>Ferrari Purosangue</h3>
-                <p>Cor: Vermelho</p>
-                <p class="price">R$ 7.500.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/mcalrenp1.jpg" alt="McLaren P1">
-                <h3>McLaren P1</h3>
-                <p>Cor: Preto</p>
-                <p class="price">R$ 12.000.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/lamborghinievo.webp" alt="Lamborghini Huracan Evo">
-                <h3>Lamborghini  Huracan Evo</h3>
-                <p>Cor: Vermelho</p>
-                <p class="price">R$ 4.500.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
+        <div class="card">
+            <img src="images/corolla-2020.jpg" alt="Toyota Corolla 2020">
+            <h3>Toyota Corolla 2020</h3>
+            <p>Cor: Azul</p>
+            <p class="price">R$ 107.000</p>
+            <a href="compra.html?carro=Toyota Corolla 2020" class="btn-buy">Comprar</a>
         </div>
 
-        <!-- NOVA SEÇÃO -->
-        <h2 class="section-title">Sedans de Luxo</h2>
-
-        <div class="cards">
-            <div class="card">
-                <img src="images/audi.jpg" alt="Audi R8">
-                <h3>Audi R8 2022 V10</h3>
-                <p>Cor: Branca</p>
-                <p class="price">1.900.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/mercedes.jpg" alt="Mercedes Benz S 63 E Performance">
-                <h3>Mercedes Benz S</h3>
-                <p>Cor: Cinza</p>
-                <p class="price">1.800.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-
-            <div class="card">
-                <img src="images/cadilac.jpg" alt="Cadillac CT5-V ">
-                <h3>Cadillac CT5-V V8</h3>
-                <p>Cor: Preto</p>
-                <p class="price">1.600.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/rs7.webp" alt="Audi RS7">
-                <h3>Audi RS7</h3>
-                <p>Cor: Vermelho</p>
-                <p class="price">1.000.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="images/bmw.jpg" alt="BMW M5 Competition">
-                <h3>BMW M5 Competition</h3>
-                <p>Cor: Prata</p>
-                <p class="price">990.000</p>
-                <button class="btn-buy">Comprar</button>
-            </div>
-
-
-        </section>
-
-
-    </main>
-
-    <footer class="footer" id="contato">
-        <div class="container footer content">
-            <p>Carflix Web Site</p>
-            <div class="footer links">
-                <a href="#">Politica de Privacidade</a>
-            </div>
+        <div class="card">
+            <img src="images/hb20-2022.jpg" alt="Hyundai HB20 2022">
+            <h3>Hyundai HB20</h3>
+            <p>Cor: Branco</p>
+            <p class="price">R$ 120.000</p>
+            <a href="compra.html?carro=Hyundai HB20" class="btn-buy">Comprar</a>
         </div>
-    </footer>
+
+        <div class="card">
+            <img src="images/cruze.jpg" alt="Chevrolet Cruze 2023">
+            <h3>Chevrolet Cruze LTZ</h3>
+            <p>Cor: Preto</p>
+            <p class="price">R$ 110.000</p>
+            <a href="compra.html?carro=Chevrolet Cruze LTZ" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/jetta.jpg" alt="Volkswagen Jetta GLI">
+            <h3>Volkswagen Jetta GLI</h3>
+            <p>Cor: Vermelho</p>
+            <p class="price">R$ 270.000</p>
+            <a href="compra.html?carro=Volkswagen Jetta GLI" class="btn-buy">Comprar</a>
+        </div>
+
+    </div>
+
+    <h2 class="section-title">Supercarros</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="images/mclaren-senna.jpg" alt="McLaren Senna">
+            <h3>McLaren Senna</h3>
+            <p>Cor: Laranja</p>
+            <p class="price">R$ 15.000.000</p>
+            <a href="compra.html?carro=McLaren Senna" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/porshe.jpg" alt="Porshe 911 Turbo S">
+            <h3>Porshe 911 Turbo S</h3>
+            <p>Cor: Preto</p>
+            <p class="price">R$ 2.150.000</p>
+            <a href="compra.html?carro=Porshe 911 Turbo S" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/purosangue.jpg" alt="Ferrari Purosangue 2025">
+            <h3>Ferrari Purosangue</h3>
+            <p>Cor: Vermelho</p>
+            <p class="price">R$ 7.500.000</p>
+            <a href="compra.html?carro=Ferrari Purosangue" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/mcalrenp1.jpg" alt="McLaren P1">
+            <h3>McLaren P1</h3>
+            <p>Cor: Preto</p>
+            <p class="price">R$ 12.000.000</p>
+            <a href="compra.html?carro=McLaren P1" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/lamborghinievo.webp" alt="Lamborghini Huracan Evo">
+            <h3>Lamborghini Huracan Evo</h3>
+            <p>Cor: Vermelho</p>
+            <p class="price">R$ 4.500.000</p>
+            <a href="compra.html?carro=Lamborghini Huracan Evo" class="btn-buy">Comprar</a>
+        </div>
+
+    </div>
+
+    <h2 class="section-title">Sedans de Luxo</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="images/audi.jpg" alt="Audi R8">
+            <h3>Audi R8 2022 V10</h3>
+            <p>Cor: Branca</p>
+            <p class="price">1.900.000</p>
+            <a href="compra.html?carro=Audi R8 2022 V10" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/mercedes.jpg" alt="Mercedes Benz S">
+            <h3>Mercedes Benz S</h3>
+            <p>Cor: Cinza</p>
+            <p class="price">1.800.000</p>
+            <a href="compra.html?carro=Mercedes Benz S" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/cadilac.jpg" alt="Cadillac CT5-V">
+            <h3>Cadillac CT5-V V8</h3>
+            <p>Cor: Preto</p>
+            <p class="price">1.600.000</p>
+            <a href="compra.html?carro=Cadillac CT5-V V8" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/rs7.webp" alt="Audi RS7">
+            <h3>Audi RS7</h3>
+            <p>Cor: Vermelho</p>
+            <p class="price">1.000.000</p>
+            <a href="compra.html?carro=Audi RS7" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="images/bmw.jpg" alt="BMW M5 Competition">
+            <h3>BMW M5 Competition</h3>
+            <p>Cor: Prata</p>
+            <p class="price">990.000</p>
+            <a href="compra.html?carro=BMW M5 Competition" class="btn-buy">Comprar</a>
+        </div>
+
+    </div>
+
+</main>
+
+<footer class="footer" id="contato">
+    <div class="container footer content">
+        <p>Carflix Web Site</p>
+
+        <div class="footer links">
+            <a href="#">Politica de Privacidade</a>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

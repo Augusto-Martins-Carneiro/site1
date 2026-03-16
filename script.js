@@ -1,16 +1,8 @@
-const menuToggle = document.getElementaryById('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const params = new URLSearchParams(window.location.search);
 
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active'); });
+const carro = params.get("carro");
 
-    const cotacaoBtn = document.getElementById('cotacao-btn');
-    cotacaoBtn.addEventListener('click', () => {
-        alert('Cotação solicitada! Em breve entraremos em contato.'); });
-
-        const buyButtons = document.querySelectorAll('.buy-btn');
-        buyButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                alert('Produto adicionado ao carrinho!'); });   
-            
-    });
+if (carro) {
+    const carroElemento = document.getElementById("carroSelecionado");
+    carroElemento.textContent = carro;
+}
