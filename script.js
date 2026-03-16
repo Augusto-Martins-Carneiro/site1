@@ -1,7 +1,3 @@
-/* =========================
-MENU RESPONSIVO
-========================= */
-
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
@@ -12,9 +8,7 @@ if (menuToggle) {
 }
 
 
-/* =========================
-PEGAR CARRO DA URL
-========================= */
+
 
 const params = new URLSearchParams(window.location.search);
 const carro = params.get("carro");
@@ -26,9 +20,6 @@ if (campoCarro && carro) {
 }
 
 
-/* =========================
-MASCARA CPF
-========================= */
 
 const cpfInput = document.querySelector('input[placeholder="000.000.000-00"]');
 
@@ -48,10 +39,6 @@ if (cpfInput) {
 
 }
 
-
-/* =========================
-VALIDAÇÃO DO FORMULÁRIO
-========================= */
 
 const form = document.querySelector(".form-compra");
 
@@ -79,10 +66,6 @@ if (form) {
 
 }
 
-
-/* =========================
-ANIMAÇÃO NOS CARDS
-========================= */
 
 const cards = document.querySelectorAll(".card");
 
@@ -112,10 +95,6 @@ cards.forEach(card => {
 
 });
 
-
-/* =========================
-BOTÃO DE COTAÇÃO
-========================= */
 
 const cotacaoBtn = document.getElementById("cotacaoBtn");
 
